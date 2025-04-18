@@ -17,10 +17,7 @@ app.post('/api/data', (req, res) => {
     const data = req.body;
     res.json({ received: data });
 });
-app.post('/api/data1', (req, res) => {
-    const data = req.body;
-    res.json({ received: data });
-});
+
 
 app.listen(4002, () => {
     console.log('Server is running on http://localhost:4002');
