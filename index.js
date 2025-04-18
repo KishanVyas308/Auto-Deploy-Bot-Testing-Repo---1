@@ -18,6 +18,6 @@ app.post('/api/data', (req, res) => {
     res.json({ received: data });
 });
 
-app.listen(4000, () => {
-    console.log('Server is running on http://localhost:4000');
+app.listen(4002, () => {
+    console.log('Server is running on http://localhost:4002');
 });
